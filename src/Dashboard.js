@@ -59,14 +59,14 @@ class Dashboard extends React.Component{
                 <RecentDonations donations={this.state.donations}/>
             </div>
         </Row>
-        <Row style={{display: "inline-block"}}>
+        {/* <Row style={{display: "inline-block"}}>
             <div className="countdown">
                 <span>🚀</span>
                 <Countdown date={new Date("Feb 26, 2022 23:45:00")} daysInHours={true}/>
                 <span style={{padding: 0}}> until Knight-Thon blastoff!</span>
                 <span>🚀</span>
             </div>
-        </Row>
+        </Row> */}
         {/* <Row>
             <div className="">
                 <Leaderboard title={"Test"} leaders={this.state.teamLeaders}/>
