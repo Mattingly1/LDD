@@ -1,6 +1,6 @@
-# University of Nebraska - Lincoln Dance Marathon Dashboard
-This repository represents a dashboard for the UNL dance marathon event day.
-
+# Windermere High School - Dance Marathon Dashboard
+Source Code adapted from [Create React App](https://github.com/facebook/create-react-app). by Hunter Godinda [University of Nebraska -Lincoln Dance Marathon ] 
+Documentation and tutorial by Ryan Lumm [University of Central Florida Knight-Thon]
 
 
 
