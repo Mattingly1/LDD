@@ -10,7 +10,7 @@ class Dashboard extends React.Component{
         this.state={
             donations: [],
             pollingCount: 0,
-            delay: 2000,
+            delay: 1000,
             teamLeaders: [],
             oldDonations: [],
             bigDonation: null
@@ -19,7 +19,7 @@ class Dashboard extends React.Component{
     }
 
     componentDidMount(){
-        //this.interval = setInterval(this.poll, this.state.delay);
+        this.interval = setInterval(this.poll, this.state.delay);
         this.poll();
     }
 
